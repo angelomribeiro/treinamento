@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CadastroCliente.Domain.Repository
+namespace CadastroCliente.Data.Interfaces
 {
     public interface IRepositoryBase<T> where T : class
     {

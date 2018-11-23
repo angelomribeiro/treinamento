@@ -1,5 +1,5 @@
 ﻿using CadastroCliente.Data.Context;
-using CadastroCliente.Domain.Repository;
+using CadastroCliente.Data.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
