@@ -1,0 +1,14 @@
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\CadastroCliente.Data.dll.config
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\CadastroCliente.Data.dll
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\CadastroCliente.Data.pdb
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\CadastroCliente.Domain.dll
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\EntityFramework.dll
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\CadastroCliente.Domain.pdb
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\EntityFramework.xml
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.csprojAssemblyReference.cache
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.csproj.CoreCompileInputs.cache
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.csproj.CopyComplete
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.dll
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.pdb

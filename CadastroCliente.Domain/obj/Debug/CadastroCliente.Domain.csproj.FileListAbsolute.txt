@@ -1,0 +1,6 @@
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Domain\bin\Debug\CadastroCliente.Domain.dll
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Domain\bin\Debug\CadastroCliente.Domain.pdb
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Domain\obj\Debug\CadastroCliente.Domain.csprojAssemblyReference.cache
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Domain\obj\Debug\CadastroCliente.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Domain\obj\Debug\CadastroCliente.Domain.dll
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Domain\obj\Debug\CadastroCliente.Domain.pdb
