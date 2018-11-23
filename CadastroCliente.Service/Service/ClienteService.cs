@@ -2,14 +2,13 @@
 using CadastroCliente.Data.Repository;
 using CadastroCliente.Domain.Model;
 using CadastroCliente.Service.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CadastroCliente.Service.Service
 {
+    /// <summary>
+    /// Servico do dominio, para inclusao de regras de negocios, validacoes e etc
+    /// </summary>
     public class ClienteService : IClienteService
     {
         private readonly ClienteRepository _repository;
