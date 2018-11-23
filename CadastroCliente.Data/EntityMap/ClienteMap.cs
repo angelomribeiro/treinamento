@@ -17,27 +17,28 @@ namespace CadastroCliente.Data.EntityMap
 
             // define que o banco de dados irá gerar o valor para a chave-primária
             Property(p => p.ClienteId)
+                .HasColumnName("cliente_id")
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
-            // define nome, tipo e se será obrigatório
+            // define nome, tamanho e se será obrigatório
             Property(p => p.Nome)
                 .HasColumnName("nome") // nome do campo
-                .HasColumnType("varchar(100)") // tipo do campo
+                .HasMaxLength(100) // tamanho do campo
                 .IsRequired(); // preenchimento obrigatório
 
             Property(p => p.Email)
                 .HasColumnName("email")
-                .HasColumnType("varchar(100)")
+                .HasMaxLength(100)
                 .IsRequired();
 
             Property(p => p.Endereco)
                 .HasColumnName("endereco")
-                .HasColumnType("varchar(300)")
+                .HasMaxLength(300)
                 .IsRequired();
 
             Property(p => p.Telefone)
                 .HasColumnName("telefone")
-                .HasColumnType("varchar(20)");
+                .HasMaxLength(20);
 
             // se o tipo do campo não for definido, o EF irá definir baseado no tipo do atributo
             Property(p => p.DataNascimento)

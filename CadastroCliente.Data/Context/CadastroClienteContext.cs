@@ -1,4 +1,5 @@
-﻿using CadastroCliente.Data.EntityMap;
+﻿using CadastroCliente.Data.Entity;
+using CadastroCliente.Data.EntityMap;
 using System.Data.Entity;
 
 namespace CadastroCliente.Data.Context
@@ -13,6 +14,14 @@ namespace CadastroCliente.Data.Context
         // define nome da string de conexao (sera definido no web.config do projeto asp.net mvc)
         public CadastroClienteContext() : base("name=CadastroConnection") {}
 
-        public virtual DbSet<ClienteMap> Cliente { get; set; }
+        public virtual DbSet<ClienteEntity> Cliente { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            // cria mapeamento da classe com tabela no banco de dados
+            modelBuilder.Configurations.Add(new ClienteMap());
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

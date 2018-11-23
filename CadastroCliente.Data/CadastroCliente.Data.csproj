@@ -52,6 +52,7 @@
     <Compile Include="EntityMap\ClienteMap.cs" />
     <Compile Include="Entity\ClienteEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ClienteRepository.cs" />
     <Compile Include="Repository\RepositoryBase.cs" />
   </ItemGroup>
   <ItemGroup>

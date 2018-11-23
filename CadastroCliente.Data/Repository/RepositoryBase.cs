@@ -9,6 +9,11 @@ namespace CadastroCliente.Data.Repository
     {
         private readonly CadastroClienteContext _db;
 
+        public RepositoryBase()
+        {
+            _db = new CadastroClienteContext();
+        }
+
         public void Add(T model)
         {
             _db.Set<T>().Add(model);
