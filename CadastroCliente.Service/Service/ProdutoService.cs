@@ -11,11 +11,19 @@ namespace CadastroCliente.Service.Service
     public class ProdutoService : IProdutoService
     {
         private readonly IProdutoRepository _repository;
+        private readonly IMapper _mapper;
 
         public ProdutoService()
         {
             // instancia o repositorio do produto
             _repository = new ProdutoRepository();
+
+            // configura automapper
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<Produto, ProdutoEntity>().ReverseMap();
+            });
+            _mapper = config.CreateMapper();
         }
 
         public void Alterar(Produto produto)
@@ -47,7 +55,7 @@ namespace CadastroCliente.Service.Service
 
         public ICollection<Produto> ListarProdutos()
         {
-            return Mapper.Map<ICollection<Produto>>(_repository.Listar());
+            return _mapper.Map<ICollection<Produto>>(_repository.Listar());
         }
     }
 }

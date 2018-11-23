@@ -56,6 +56,15 @@
     <Compile Include="Interfaces\IClienteRepository.cs" />
     <Compile Include="Interfaces\IProdutoRepository.cs" />
     <Compile Include="Interfaces\IRepositoryBase.cs" />
+    <Compile Include="Migrations\201811231606332_InitialCreate.cs" />
+    <Compile Include="Migrations\201811231606332_InitialCreate.Designer.cs">
+      <DependentUpon>201811231606332_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811231950501_tabela-produto.cs" />
+    <Compile Include="Migrations\201811231950501_tabela-produto.Designer.cs">
+      <DependentUpon>201811231950501_tabela-produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ClienteRepository.cs" />
     <Compile Include="Repository\ProdutoRepository.cs" />
@@ -71,6 +80,13 @@
       <Name>CadastroCliente.Domain</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201811231606332_InitialCreate.resx">
+      <DependentUpon>201811231606332_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811231950501_tabela-produto.resx">
+      <DependentUpon>201811231950501_tabela-produto.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

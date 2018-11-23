@@ -22,7 +22,6 @@ namespace CadastroCliente.Data.EntityMap
 
             Property(p => p.Descricao)
                 .HasColumnName("descricao")
-                .HasColumnType("varchar(100)")
                 .HasMaxLength(100)
                 .IsRequired();
 

@@ -12,3 +12,6 @@ C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\Cadas
 C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.csproj.CopyComplete
 C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.dll
 C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.pdb
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.Migrations.InitialCreate.resources
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.csproj.GenerateResource.cache
+C:\Users\AngeloMartinsRibeiro\Documents\Angelo\Treinamento\CadastroCliente\CadastroCliente.Data\obj\Debug\CadastroCliente.Data.Migrations.tabelaproduto.resources
