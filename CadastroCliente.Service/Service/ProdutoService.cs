@@ -28,7 +28,7 @@ namespace CadastroCliente.Service.Service
 
         public void Alterar(Produto produto)
         {
-            var entity = Mapper.Map<ProdutoEntity>(produto);
+            var entity = _mapper.Map<ProdutoEntity>(produto);
             _repository.Update(entity);
         }
 
@@ -39,7 +39,7 @@ namespace CadastroCliente.Service.Service
 
         public void Cadastrar(Produto produto)
         {
-            var entity = Mapper.Map<ProdutoEntity>(produto);
+            var entity = _mapper.Map<ProdutoEntity>(produto);
             _repository.Add(entity);
         }
 

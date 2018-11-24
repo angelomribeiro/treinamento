@@ -57,7 +57,7 @@ namespace CadastroCliente.Api.Controllers
         /// Exclui produto
         /// </summary>
         [HttpDelete]
-        [Route("produto/excluir")]
+        [Route("produtos/excluir")]
         public IHttpActionResult Excluir(int id)
         {
             _service.Excluir(id);
