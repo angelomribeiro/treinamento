@@ -7,6 +7,15 @@ namespace CadastroCliente.Api.Controllers
 {
     public class ClienteController : ApiController
     {
+        /// <summary>
+        /// 1 - Buscar cliente por nome
+        /// 2 - Verificar se id existe ao realizar alteracao ou exclusao
+        /// 3 - nao permitir cadastrar o mesmo e-mail varias vezes
+        /// 4 - validar a entrada de dados, solicitando o preenchimento dos campos obrigatorios
+        /// 5 - criar lista personalizada com nome e idade dos clientes
+        /// 6 - criar metodo que atualiza apenas o email do cliente
+        /// </summary>
+
         // criando uma variavel privada para armazenar o servico
         private readonly IClienteService _service;
 
@@ -34,7 +43,7 @@ namespace CadastroCliente.Api.Controllers
         public IHttpActionResult Cadastrar([FromBody]Cliente cliente)
         {
             _service.Cadastrar(cliente);
-            return Ok();
+            return Ok("Cadastro realizado com sucesso.");
         }
 
         /// <summary>

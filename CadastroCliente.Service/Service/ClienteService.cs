@@ -24,7 +24,7 @@ namespace CadastroCliente.Service.Service
                 ClienteId = cliente.ClienteId,
                 DataNascimento = cliente.DataNascimento,
                 Email = cliente.Email,
-                Endereco = cliente.Email,
+                Endereco = cliente.Endereco,
                 Nome = cliente.Nome,
                 Telefone = cliente.Telefone
             };
